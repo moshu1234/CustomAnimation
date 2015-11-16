@@ -1,0 +1,15 @@
+﻿<Properties StartupItem="CustomAnimation\CustomAnimation.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus 4 (Lollipop)" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CustomAnimation\ViewAnimationActivity.cs">
+    <Files>
+      <File FileName="CustomAnimation\MainActivity.cs" Line="33" Column="2" />
+      <File FileName="CustomAnimation\DemoAnimationActivity.cs" Line="25" Column="2" />
+      <File FileName="CustomAnimation\ViewAnimationActivity.cs" Line="25" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.CustomAnimation AndroidDesignerPreferredDevice="Nexus 4" />
+</Properties>
