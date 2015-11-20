@@ -14,12 +14,12 @@ using Android.Widget;
 namespace CustomAnimation
 {
 	[Activity (Label = "ViewAnimationActivity")]			
-	public class ViewAnimationActivity : Activity
+	public class AboutActivity : Activity
 	{
 		protected override void OnCreate (Bundle bundle)
 		{
 			base.OnCreate (bundle);
-			SetContentView (Resource.Layout.View);
+			SetContentView (Resource.Layout.About);
 		}
 	}
 }

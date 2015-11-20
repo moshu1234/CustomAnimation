@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomAnimation", "CustomAnimation\CustomAnimation.csproj", "{FD599F31-F2CC-48EE-870B-F6F1BD128839}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomAnimation.UITests", "CustomAnimation.UITests\CustomAnimation.UITests.csproj", "{81E08913-064F-4587-A1FB-784CB43F54DF}"
@@ -11,13 +13,17 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD599F31-F2CC-48EE-870B-F6F1BD128839}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD599F31-F2CC-48EE-870B-F6F1BD128839}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD599F31-F2CC-48EE-870B-F6F1BD128839}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FD599F31-F2CC-48EE-870B-F6F1BD128839}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD599F31-F2CC-48EE-870B-F6F1BD128839}.Release|Any CPU.Build.0 = Release|Any CPU
 		{81E08913-064F-4587-A1FB-784CB43F54DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{81E08913-064F-4587-A1FB-784CB43F54DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81E08913-064F-4587-A1FB-784CB43F54DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81E08913-064F-4587-A1FB-784CB43F54DF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FD599F31-F2CC-48EE-870B-F6F1BD128839}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FD599F31-F2CC-48EE-870B-F6F1BD128839}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FD599F31-F2CC-48EE-870B-F6F1BD128839}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FD599F31-F2CC-48EE-870B-F6F1BD128839}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal

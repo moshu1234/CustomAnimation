@@ -9,7 +9,7 @@
         android:text="Button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnRotate" />
+        android:id="@+id/btnFlipCard" />
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
