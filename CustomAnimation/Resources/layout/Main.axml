@@ -2,15 +2,21 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_height="fill_parent"
+    android:paddingTop="200dp"
+    android:paddingRight="50dp"
+    android:paddingBottom="50dp"
+    android:paddingLeft="50dp">
     <Button
         android:id="@+id/btnDemo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Demo" />
+        android:text="Demo"
+        android:textAllCaps="false" />
     <Button
         android:id="@+id/btnAbout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="About" />
+        android:text="About"
+        android:textAllCaps="false" />
 </LinearLayout>

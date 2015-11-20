@@ -14,7 +14,7 @@ using Android.Views.Animations;
 
 namespace CustomAnimation
 {
-	[Activity (Label = "DemoAnimationActivity")]			
+    [Activity(Label = "DemoAnimationActivity", ParentActivity = typeof(MainActivity))]			
 	public class DemoAnimationActivity : Activity
 	{
         ImageView image; 

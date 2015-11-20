@@ -60,6 +60,31 @@ namespace CustomAnimation
 			}
 		}
 		
+		public partial class Color
+		{
+			
+			// aapt resource value: 0x7f050003
+			public const int my_gray = 2131034115;
+			
+			// aapt resource value: 0x7f050001
+			public const int my_green = 2131034113;
+			
+			// aapt resource value: 0x7f050002
+			public const int my_purple = 2131034114;
+			
+			// aapt resource value: 0x7f050000
+			public const int my_red = 2131034112;
+			
+			static Color()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Color()
+			{
+			}
+		}
+		
 		public partial class Drawable
 		{
 			
@@ -79,20 +104,20 @@ namespace CustomAnimation
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f060004
-			public const int btnAbout = 2131099652;
+			// aapt resource value: 0x7f080004
+			public const int btnAbout = 2131230724;
 			
-			// aapt resource value: 0x7f060003
-			public const int btnDemo = 2131099651;
+			// aapt resource value: 0x7f080003
+			public const int btnDemo = 2131230723;
 			
-			// aapt resource value: 0x7f060001
-			public const int btnFlipCard = 2131099649;
+			// aapt resource value: 0x7f080001
+			public const int btnFlipCard = 2131230721;
 			
-			// aapt resource value: 0x7f060002
-			public const int imgIcon = 2131099650;
+			// aapt resource value: 0x7f080002
+			public const int imgIcon = 2131230722;
 			
-			// aapt resource value: 0x7f060000
-			public const int tvWelcome = 2131099648;
+			// aapt resource value: 0x7f080000
+			public const int tvWelcome = 2131230720;
 			
 			static Id()
 			{
@@ -129,11 +154,11 @@ namespace CustomAnimation
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f050001
-			public const int app_name = 2131034113;
+			// aapt resource value: 0x7f060001
+			public const int app_name = 2131099649;
 			
-			// aapt resource value: 0x7f050000
-			public const int hello = 2131034112;
+			// aapt resource value: 0x7f060000
+			public const int hello = 2131099648;
 			
 			static String()
 			{
@@ -141,6 +166,22 @@ namespace CustomAnimation
 			}
 			
 			private String()
+			{
+			}
+		}
+		
+		public partial class Style
+		{
+			
+			// aapt resource value: 0x7f070000
+			public const int AppTheme = 2131165184;
+			
+			static Style()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Style()
 			{
 			}
 		}

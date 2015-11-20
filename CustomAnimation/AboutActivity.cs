@@ -13,7 +13,7 @@ using Android.Widget;
 
 namespace CustomAnimation
 {
-	[Activity (Label = "ViewAnimationActivity")]			
+    [Activity(Label = "ViewAnimationActivity", ParentActivity = typeof(MainActivity))]			
 	public class AboutActivity : Activity
 	{
 		protected override void OnCreate (Bundle bundle)
